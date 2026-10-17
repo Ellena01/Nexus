@@ -5,9 +5,9 @@ import { useEffect, useRef, useState } from "react";
 const steps = [
   {
     number: "01",
-    title: "Define",
-    subtitle: "your agent",
-    description: "Describe what your agent should do. Set its capabilities, constraints, and goals in natural language or code.",
+    title: "Connect",
+    subtitle: "your operation",
+    description: "Connect your storefront, ERP, warehouse, and carrier data. NEXUS builds a live model of how inventory moves.",
     code: `const researcher = new Agent({
   role: 'Research Analyst',
   capabilities: ['web', 'docs', 'api'],
@@ -17,9 +17,9 @@ const steps = [
   },
   {
     number: "02",
-    title: "Assign",
-    subtitle: "the task",
-    description: "Give your agent a mission. It breaks down complex tasks into steps and executes them autonomously.",
+    title: "Plan",
+    subtitle: "the next move",
+    description: "Set service levels, margin rules, and supplier constraints. NEXUS turns signals into ranked actions your team can approve.",
     code: `await researcher.execute({
   task: 'Analyze competitor pricing',
   sources: ['public-data', 'news'],
@@ -29,9 +29,9 @@ const steps = [
   },
   {
     number: "03",
-    title: "Monitor",
-    subtitle: "& scale",
-    description: "Track progress in real-time. Spin up more agents as needed. Pay only for compute used.",
+    title: "Operate",
+    subtitle: "without drift",
+    description: "Watch every order, shipment, and exception in one control plane. Escalate only what needs a human decision.",
     code: `optimus.dashboard({
   agents: [researcher],
   metrics: ['tasks', 'latency', 'cost'],
@@ -88,9 +88,9 @@ export function HowItWorksSection() {
             <h2 className={`text-6xl md:text-7xl lg:text-[128px] font-display tracking-tight leading-[0.85] transition-all duration-1000 delay-100 ${
               isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"
             }`}>
-              <span className="block">Define.</span>
-              <span className="block text-white/30">Deploy.</span>
-              <span className="block text-white/10">Scale.</span>
+              <span className="block">Connect.</span>
+              <span className="block text-white/30">Plan.</span>
+              <span className="block text-white/10">Deliver.</span>
             </h2>
           </div>
 

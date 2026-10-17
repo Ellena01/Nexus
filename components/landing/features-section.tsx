@@ -5,25 +5,25 @@ import { useEffect, useRef, useState } from "react";
 const features = [
   {
     number: "01",
-    title: "Autonomous Execution",
-    description: "Deploy AI agents that work independently. They analyze, decide, and execute complex multi-step tasks without human intervention.",
+    title: "Predictive Replenishment",
+    description: "NEXUS reads demand signals, inventory, and lead times to place the right purchase orders before stockouts happen.",
     stats: { value: "99.7%", label: "task completion" },
   },
   {
     number: "02",
-    title: "Distributed Computing",
+    title: "Carrier Intelligence",
     description: "Offload compute-heavy tasks to our global network. Your agents run on optimized infrastructure across 50+ regions worldwide.",
     stats: { value: "50+", label: "global regions" },
   },
   {
     number: "03",
-    title: "Multi-Agent Orchestration",
+    title: "Exception Automation",
     description: "Coordinate teams of specialized agents. They communicate, delegate, and collaborate to solve complex problems together.",
     stats: { value: "1000x", label: "parallel execution" },
   },
   {
     number: "04",
-    title: "Secure Sandboxing",
+    title: "Operational Control",
     description: "Each agent runs in isolated environments. Full audit trails, encrypted execution, and zero data leakage between tasks.",
     stats: { value: "0", label: "data breaches" },
   },
@@ -165,16 +165,16 @@ export function FeaturesSection() {
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                 }`}
               >
-                Intelligent
+                Supply chain
                 <br />
-                <span className="text-muted-foreground">workers.</span>
+                <span className="text-muted-foreground">that moves.</span>
               </h2>
             </div>
             <div className="lg:col-span-5 lg:pb-4">
               <p className={`text-xl text-muted-foreground leading-relaxed transition-all duration-1000 delay-200 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}>
-                Deploy autonomous AI agents that execute complex tasks across distributed infrastructure. No supervision required.
+                One operating layer for demand planning, procurement, carrier selection, and fulfillment exceptions. Built for operators who need fewer surprises.
               </p>
             </div>
           </div>

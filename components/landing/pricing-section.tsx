@@ -6,7 +6,7 @@ import { ArrowRight, Check, Zap } from "lucide-react";
 const plans = [
   {
     name: "Explorer",
-    description: "For tinkering and small automations",
+    description: "For lean operations teams",
     price: { monthly: 0, annual: 0 },
     features: [
       "3 concurrent agents",
@@ -20,7 +20,7 @@ const plans = [
   },
   {
     name: "Builder",
-    description: "For teams shipping with agents",
+    description: "For teams scaling without drift",
     price: { monthly: 79, annual: 65 },
     features: [
       "25 concurrent agents",
@@ -36,7 +36,7 @@ const plans = [
   },
   {
     name: "Scale",
-    description: "For agent-first organizations",
+    description: "For complex global networks",
     price: { monthly: null, annual: null },
     features: [
       "Unlimited agents",
@@ -83,9 +83,9 @@ export function PricingSection() {
             <h2 className={`text-6xl md:text-7xl lg:text-[128px] font-display tracking-tight leading-[0.9] transition-all duration-1000 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}>
-              Pay for
+              Price for
               <br />
-              <span className="text-stroke">results.</span>
+              <span className="text-stroke">momentum.</span>
             </h2>
           </div>
           

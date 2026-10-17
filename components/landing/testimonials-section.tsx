@@ -5,28 +5,28 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Our agents handle 80% of our customer support tickets autonomously. The ROI was immediate.",
+    quote: "NEXUS gave our planners one shared view of demand and supply. We stopped expediting the same problems every week.",
     author: "Sarah Chen",
     role: "CTO",
     company: "Meridian Labs",
     metric: { value: "80%", label: "Ticket resolution" },
   },
   {
-    quote: "We deployed research agents that work 24/7. They surface insights we'd never find manually.",
+    quote: "We went from reactive purchasing to a clear, ranked action list every morning. Our team finally works ahead of demand.",
     author: "Marcus Webb",
     role: "Head of Research",
     company: "Flux Systems",
     metric: { value: "10x", label: "Research output" },
   },
   {
-    quote: "The multi-agent orchestration is incredible. Complex workflows that took weeks now run in hours.",
+    quote: "The exception workflow is the difference. NEXUS turns a late shipment into an owned next step, not another spreadsheet.",
     author: "Elena Rodriguez",
     role: "VP Engineering",
     company: "Beacon AI",
     metric: { value: "40x", label: "Faster workflows" },
   },
   {
-    quote: "Security was our biggest concern. The sandboxing and audit trails gave us full confidence.",
+    quote: "We can explain every recommendation to finance, procurement, and operations. That made adoption easy.",
     author: "James Liu",
     role: "CISO",
     company: "Prism Analytics",
